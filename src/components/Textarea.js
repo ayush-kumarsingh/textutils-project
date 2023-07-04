@@ -47,7 +47,7 @@ export default function Textarea(props) {
             <div className="container">
                 <h2>Your Text Summary</h2>
                 <p>your words <b>{(text.length == 0)?'0':text.trim().split(" ").length}</b> and your characters <b>{text.length}</b>.</p>
-                <p>your text can be read in <b>{(text.length == 0)?'0':0.08 * text.split(" ").length}</b> minutes</p>
+                <p>your text can be read in <b>{(text.length == 0)?'0':0.003 * text.split(" ").length}</b> minutes</p>
             </div>
         </div>
 
